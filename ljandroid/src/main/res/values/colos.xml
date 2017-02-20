@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--libs-->
+    <color name="red">#FF0000</color>
+    <color name="text_cccccc">#cccccc</color>
+    <color name="text_888888">#888888</color>
+    <color name="text_999999">#999999</color>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grey">#AAAAAA</color>
+    <color name="grey_line">#eeeeee</color>
+    <color name="blue">#4169E1</color>
+    <color name="yellow">#EEEE00</color>
+    <color name="orng">#FF7f00</color>
+    <color name="divider_color">#11000000</color>
+    <color name="msg_color">#FFFFFFFF</color>
+    <color name="dialog_bg">#ffe74c3c</color>
+    <color name="btn_press_color">#66000000</color>
+    <color name="btn_unpress_color">#22000000</color>
+     <color name="touming">#00000000</color>
+    <color name="card_background">#ffffff</color>
+    <color name="card_shadow">#10000000</color>
+    <color name="lite_blue">#ff359ff2</color>
+    <color name="window_background">#00000000</color>
+    <color name="black_de">#DE000000</color>
+    <color name="bg_ff7f66">#ff7f66</color>
+    <color name="lin_f0eff66">#f0eff6</color>
+    <color name="popup_main_background">#b0000000</color>
+    <color name="choose_eara_item_press_color">#f4f4f4</color>
+    <color name="no_color">#00000000</color>
+    <item name="gray_holo_dark" type="color">#ff464646</item>
+    <item name="gray_holo_light" type="color">#ffd0d0d0</item>
+    <color name="ban_tant">#B3000000</color>
+    <color name="indicator_normal">#fff0f0f0</color>
+    <color name="share_bg_ffd8d1">#ffd8d1</color>
+    <color name="indicator_select">#969696</color>
+    <color name="theme_gray">#F5F5F5</color>
+    <color name="slider_color_normal">#ffa6a6a6</color>
+    <color name="slider_color">#ff969696</color>
+    <color name="color_grey_eaeaea">#eaeaea</color>
+    <color name="divider">#E5E5E5</color>
+    <color name="shadow">#AAEBEBEB</color>
+    <color name="common_bg">#FAFAFA</color>
+    <color name="content_bg">#F3F3F3</color>
+    <color name="gray">#8c8c8c</color>
+    <color name="gray_deep">#5c5c5c</color>
+    <color name="alpha_gray">#CC646464</color>
+    <color name="common_pressed">#20000000</color>
+    <color name="line">#e8e8e8</color>
+    <!--cyx颜色-->
+    <!--主色，用于需要突出的文字和按钮-->
+    <color name="cyx_bg_ed2b62">#ed2b62</color>
+    <!--重要级的文字、标题信息 -->
+    <color name="cyx_color_333333">#333333</color>
+    <!--普通级段落、昵称、文字按钮-->
+    <color name="cyx_color_666666">#666666</color>
+    <!--辅助性次要文字、弱化的文字按钮 -->
+    <color name="cyx_color_999999">#999999</color>
+    <!--时间等标识性文字及普通按钮描边 -->
+    <color name="cyx_color_cccccc">#cccccc</color>
+    <!-- 用于分割线、及部分标签的背景色-->
+    <color name="cyx_color_e5e5e5">#e5e5e5</color>
+    <!--辅助色，用于少量突出文字-->
+    <color name="cyx_color_ffb466">#ffb466</color>
+    <!-- 用于页面底色-->
+    <color name="cyx_color_f3f5f9">#f3f5f9</color>
+    <color name="page_bg">#f3f5f9</color>
+    <!--用于导航栏底色，及所有列表点击色-->
+    <color name="cyx_color_f8f8f8">#f8f8f8</color>
+    <!--用于线条-->
+    <color name="cyx_color_dddddd">#dddddd</color>
+    <color name="cyx_color_feefb8">#feefb8</color>
+    <color name="cyx_color_0D000000">#0D000000</color>
+    <color name="cyx_color_66000000">#66000000</color>
+    <color name="cyx_color_f5f5f5">#f5f5f5</color>
+    <color name="cyx_color_ffffff">#ffffff</color>
+    <color name="cyx_color_fff7ef">#fff7ef</color>
+    <color name="cyx_color_517bc0">#517bc0</color>
+</resources>

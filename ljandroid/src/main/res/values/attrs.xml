@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SimpleArcLoader">
+        <attr name="arc_style" format="enum">
+            <enum name="simple_arc" value="0"></enum>
+            <enum name="complete_arc" value="1"></enum>
+        </attr>
+        <attr name="arc_margin" format="dimension"/>
+        <attr name="arc_thickness" format="dimension"/>
+        <attr name="arc_speed" format="enum">
+            <enum name="slow" value="0"></enum>
+            <enum name="medium" value="1"></enum>
+            <enum name="fast" value="2"></enum>
+        </attr>
+        <attr name="arc_colors" format="reference"></attr>
+    </declare-styleable>
+</resources>
