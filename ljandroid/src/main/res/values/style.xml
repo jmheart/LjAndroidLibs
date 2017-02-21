@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 加载对话框 -->
+    <style name="Dialog_NoTitle" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">false</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:windowBackground">@color/touming</item><!--背景透明-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <style name="Dialog_NoTitle_Translucent" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item><!--边框-->
+        <item name="android:windowIsFloating">true</item><!--是否浮现在activity之上-->
+        <item name="android:windowIsTranslucent">true</item><!--半透明-->
+        <item name="android:windowNoTitle">true</item><!--无标题-->
+        <item name="android:backgroundDimEnabled">false</item><!--模糊-->
+        <item name="android:backgroundDimAmount">0.6</item>
+    </style>
+    <!--字体ed2b62-->
+    <style name="text_sp11_ed2b62">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp11</item>
+        <item name="android:textColor">@color/cyx_bg_ed2b62</item>
+    </style>
+    <style name="text_sp12_ed2b62">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp12</item>
+        <item name="android:textColor">@color/cyx_bg_ed2b62</item>
+    </style>
+    <style name="text_sp13_ed2b62">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp13</item>
+        <item name="android:textColor">@color/cyx_bg_ed2b62</item>
+    </style>
+    <style name="text_sp14_ed2b62">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp14</item>
+        <item name="android:textColor">@color/cyx_bg_ed2b62</item>
+    </style>
+    <style name="text_sp15_ed2b62">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp15</item>
+        <item name="android:textColor">@color/cyx_bg_ed2b62</item>
+    </style>
+    <style name="text_sp17_ed2b62">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp17</item>
+        <item name="android:textColor">@color/cyx_bg_ed2b62</item>
+    </style>
+    <!--333333-->
+    <style name="text_sp11_333333">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp11</item>
+        <item name="android:textColor">@color/cyx_color_333333</item>
+    </style>
+    <style name="text_sp12_333333">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp12</item>
+        <item name="android:textColor">@color/cyx_color_333333</item>
+    </style>
+    <style name="text_sp13_333333">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp13</item>
+        <item name="android:textColor">@color/cyx_color_333333</item>
+    </style>
+    <style name="text_sp14_333333">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp14</item>
+        <item name="android:textColor">@color/cyx_color_333333</item>
+    </style>
+    <style name="text_sp15_333333">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp15</item>
+        <item name="android:textColor">@color/cyx_color_333333</item>
+    </style>
+    <style name="text_sp17_333333">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp17</item>
+        <item name="android:textColor">@color/cyx_color_333333</item>
+    </style>
+    <!--666666-->
+    <style name="text_sp11_666666">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp11</item>
+        <item name="android:textColor">@color/cyx_color_666666</item>
+    </style>
+    <style name="text_sp12_666666">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp12</item>
+        <item name="android:textColor">@color/cyx_color_666666</item>
+    </style>
+    <style name="text_sp13_666666">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp13</item>
+        <item name="android:textColor">@color/cyx_color_666666</item>
+    </style>
+    <style name="text_sp14_666666">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp14</item>
+        <item name="android:textColor">@color/cyx_color_666666</item>
+    </style>
+    <style name="text_sp15_666666">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp15</item>
+        <item name="android:textColor">@color/cyx_color_666666</item>
+    </style>
+    <style name="text_sp17_666666">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp17</item>
+        <item name="android:textColor">@color/cyx_color_666666</item>
+    </style>
+    <!--999999-->
+    <style name="text_sp11_999999">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp11</item>
+        <item name="android:textColor">@color/cyx_color_999999</item>
+    </style>
+    <style name="text_sp12_999999">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp12</item>
+        <item name="android:textColor">@color/cyx_color_999999</item>
+    </style>
+    <style name="text_sp13_999999">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp13</item>
+        <item name="android:textColor">@color/cyx_color_999999</item>
+    </style>
+    <style name="text_sp14_999999">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp14</item>
+        <item name="android:textColor">@color/cyx_color_999999</item>
+    </style>
+    <style name="text_sp15_999999">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp15</item>
+        <item name="android:textColor">@color/cyx_color_999999</item>
+    </style>
+    <style name="text_sp17_999999">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp17</item>
+        <item name="android:textColor">@color/cyx_color_999999</item>
+    </style>
+    <!--cccccc-->
+    <style name="text_sp11_cccccc">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp11</item>
+        <item name="android:textColor">@color/cyx_color_cccccc</item>
+    </style>
+    <style name="text_sp12_cccccc">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp12</item>
+        <item name="android:textColor">@color/cyx_color_cccccc</item>
+    </style>
+    <style name="text_sp13_cccccc">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp13</item>
+        <item name="android:textColor">@color/cyx_color_cccccc</item>
+    </style>
+    <style name="text_sp14_cccccc">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp14</item>
+        <item name="android:textColor">@color/cyx_color_cccccc</item>
+    </style>
+    <style name="text_sp15_cccccc">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp15</item>
+        <item name="android:textColor">@color/cyx_color_cccccc</item>
+    </style>
+    <style name="text_sp17_cccccc">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp17</item>
+        <item name="android:textColor">@color/cyx_color_cccccc</item>
+    </style>
+    <!--字体e5e5e5-->
+    <style name="text_sp11_e5e5e5">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp11</item>
+        <item name="android:textColor">@color/cyx_color_e5e5e5</item>
+    </style>
+    <style name="text_sp12_e5e5e5">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp12</item>
+        <item name="android:textColor">@color/cyx_color_e5e5e5</item>
+    </style>
+    <style name="text_sp13_e5e5e5">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp13</item>
+        <item name="android:textColor">@color/cyx_color_e5e5e5</item>
+    </style>
+    <style name="text_sp14_e5e5e5">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp14</item>
+        <item name="android:textColor">@color/cyx_color_e5e5e5</item>
+    </style>
+    <style name="text_sp15_e5e5e5">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp15</item>
+        <item name="android:textColor">@color/cyx_color_e5e5e5</item>
+    </style>
+    <style name="text_sp17_e5e5e5">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp17</item>
+        <item name="android:textColor">@color/cyx_color_e5e5e5</item>
+    </style>
+    <!--字体ffb466-->
+    <style name="text_sp11_ffb466">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp11</item>
+        <item name="android:textColor">@color/cyx_color_ffb466</item>
+    </style>
+    <style name="text_sp12_ffb466">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp12</item>
+        <item name="android:textColor">@color/cyx_color_ffb466</item>
+    </style>
+    <style name="text_sp13_ffb466">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp13</item>
+        <item name="android:textColor">@color/cyx_color_ffb466</item>
+    </style>
+    <style name="text_sp14_ffb466">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp14</item>
+        <item name="android:textColor">@color/cyx_color_ffb466</item>
+    </style>
+    <style name="text_sp15_ffb466">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp15</item>
+        <item name="android:textColor">@color/cyx_color_ffb466</item>
+    </style>
+    <style name="text_sp17_ffb466">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp17</item>
+        <item name="android:textColor">@color/cyx_color_ffb466</item>
+    </style>
+    <!--字体f3f5f9-->
+    <style name="text_sp11_f3f5f9">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp11</item>
+        <item name="android:textColor">@color/cyx_color_f3f5f9</item>
+    </style>
+    <style name="text_sp11_ffffff">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp11</item>
+        <item name="android:textColor">@color/cyx_color_ffffff</item>
+    </style>
+    <style name="text_sp12_f3f5f9">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp12</item>
+        <item name="android:textColor">@color/cyx_color_f3f5f9</item>
+    </style>
+    <style name="text_sp13_f3f5f9">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp13</item>
+        <item name="android:textColor">@color/cyx_color_f3f5f9</item>
+    </style>
+    <style name="text_sp14_f3f5f9">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp14</item>
+        <item name="android:textColor">@color/cyx_color_f3f5f9</item>
+    </style>
+    <style name="text_sp15_f3f5f9">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp15</item>
+        <item name="android:textColor">@color/cyx_color_f3f5f9</item>
+    </style>
+
+    <style name="text_sp15_ffffff">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp15</item>
+        <item name="android:textColor">@color/cyx_color_ffffff</item>
+    </style>
+    <style name="text_sp14_ffffff">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp14</item>
+        <item name="android:textColor">@color/cyx_color_ffffff</item>
+    </style>
+    <style name="text_sp17_f3f5f9">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp17</item>
+        <item name="android:textColor">@color/cyx_color_f3f5f9</item>
+    </style>
+
+    <style name="text_sp17_ffffff">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp17</item>
+        <item name="android:textColor">@color/cyx_color_ffffff</item>
+    </style>
+    <!--字体f8f8f8-->
+    <style name="text_sp11_f8f8f8">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp11</item>
+        <item name="android:textColor">@color/cyx_color_f8f8f8</item>
+    </style>
+    <style name="text_sp12_f8f8f8">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp12</item>
+        <item name="android:textColor">@color/cyx_color_f8f8f8</item>
+    </style>
+    <style name="text_sp13_f8f8f8">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp13</item>
+        <item name="android:textColor">@color/cyx_color_f8f8f8</item>
+    </style>
+    <style name="text_sp14_f8f8f8">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp14</item>
+        <item name="android:textColor">@color/cyx_color_f8f8f8</item>
+    </style>
+    <style name="text_sp15_f8f8f8">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp15</item>
+        <item name="android:textColor">@color/cyx_color_f8f8f8</item>
+    </style>
+    <style name="text_sp17_f8f8f8">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/text_size_sp17</item>
+        <item name="android:textColor">@color/cyx_color_f8f8f8</item>
+    </style>
+    <!--线条-->
+    <style name="lin_vertical_dddddd">
+        <item name="android:layout_width">0.1dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/cyx_color_dddddd</item>
+    </style>
+    <style name="lin_vertical_e5e5e5">
+        <item name="android:layout_width">0.1dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/cyx_color_e5e5e5</item>
+    </style>
+    <style name="lin_vertical_cccccc">
+        <item name="android:layout_width">0.1dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/cyx_color_cccccc</item>
+    </style>
+    <style name="lin_horizontal_dddddd">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/cyx_color_dddddd</item>
+    </style>
+    <style name="lin_horizontal_e5e5e5">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/cyx_color_e5e5e5</item>
+    </style>
+    <style name="lin_horizontal_f3f5f9">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">5dp</item>
+        <item name="android:background">@color/cyx_color_f3f5f9</item>
+    </style>
+    <style name="lin_horizontal_0D000000">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/cyx_color_0D000000</item>
+    </style>
+    <!--按钮-->
+    <!--重要按钮-->
+    <style name="button_main"  parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">39dp</item>
+        <item name="android:textSize">@dimen/text_size_sp12</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@drawable/button_blue</item>
+    </style>
+</resources>
