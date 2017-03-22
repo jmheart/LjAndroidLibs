@@ -9,4 +9,5 @@ import android.os.Environment;
 
 public class LjConfig {
     public static  String cacheFilePath= Environment.getExternalStorageDirectory().getAbsolutePath()+"/liujie";
+
 }

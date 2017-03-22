@@ -17,38 +17,23 @@ import okhttp3.Call;
 import okhttp3.OkHttpClient;
 import okhttp3.Response;
 
-/**
- * Created by zhy on 15/8/17.
- */
-public class OkHttpUtils
-{
+public class OkHttpUtils{
     public static final long DEFAULT_MILLISECONDS = 10_000L;
     private volatile static OkHttpUtils mInstance;
     private OkHttpClient mOkHttpClient;
     private Platform mPlatform;
-
-    public OkHttpUtils(OkHttpClient okHttpClient)
-    {
-        if (okHttpClient == null)
-        {
+    public OkHttpUtils(OkHttpClient okHttpClient){
+        if (okHttpClient == null){
             mOkHttpClient = new OkHttpClient();
-        } else
-        {
+        } else{
             mOkHttpClient = okHttpClient;
         }
-
         mPlatform = Platform.get();
     }
-
-
-    public static OkHttpUtils initClient(OkHttpClient okHttpClient)
-    {
-        if (mInstance == null)
-        {
-            synchronized (OkHttpUtils.class)
-            {
-                if (mInstance == null)
-                {
+    public static OkHttpUtils initClient(OkHttpClient okHttpClient) {
+        if (mInstance == null){
+            synchronized (OkHttpUtils.class){
+                if (mInstance == null){
                     mInstance = new OkHttpUtils(okHttpClient);
                 }
             }
@@ -207,8 +192,7 @@ public class OkHttpUtils
         }
     }
 
-    public static class METHOD
-    {
+    public static class METHOD{
         public static final String HEAD = "HEAD";
         public static final String DELETE = "DELETE";
         public static final String PUT = "PUT";

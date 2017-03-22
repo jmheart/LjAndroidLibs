@@ -36,13 +36,7 @@ public class BaseActivity extends FragmentActivity {
             mDialog.dismiss();
         }
     }
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        if (mDialog!=null){
-            mDialog.dismiss();
-        }
-    }
+
 
     /**
      * findViewById(int id)书写简化,无须强制转换、
@@ -68,6 +62,12 @@ public class BaseActivity extends FragmentActivity {
     public void goActivity(Class z){
         startActivity(new Intent(this, z));
     }
-
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        if (mDialog!=null){
+            mDialog.dismiss();
+        }
+    }
 
 }

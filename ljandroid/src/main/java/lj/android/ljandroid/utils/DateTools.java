@@ -1,7 +1,11 @@
 package lj.android.ljandroid.utils;
 
+import android.content.Context;
+
 import java.text.SimpleDateFormat;
 import java.util.Date;
+
+import lj.android.ljandroid.base.BaseApplication;
 
 /**
  * 作者：刘杰（QQ:770161055,WeChat:yjso0826）
@@ -43,5 +47,8 @@ public class DateTools {
     public static String getCurrentTimeMillis(){
       return String.valueOf(  System.currentTimeMillis());
     }
-
+    /*获取上下文*/
+    public static Context getContext(){
+        return BaseApplication.getmBaseApplication().getApplicationContext();
+    }
 }

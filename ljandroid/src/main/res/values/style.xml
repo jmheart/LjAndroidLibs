@@ -422,4 +422,18 @@
         <item name="android:textColor">@color/white</item>
         <item name="android:background">@drawable/button_blue</item>
     </style>
+    <style name="button_sure"  parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">39dp</item>
+        <item name="android:textColor">@drawable/buttom_sure_text_selector</item>
+        <item name="android:textSize">@dimen/text_size_sp12</item>
+        <item name="android:background">@color/white</item>
+    </style>
+    <style name="button_cancle"  parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">39dp</item>
+        <item name="android:textColor">@drawable/buttom_cancle_text_selector</item>
+        <item name="android:textSize">@dimen/text_size_sp12</item>
+        <item name="android:background">@color/white</item>
+    </style>
 </resources>

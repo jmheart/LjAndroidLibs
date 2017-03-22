@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/lin_input"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="55dp"
+        android:layout_marginRight="55dp"
+        android:background="@drawable/shap_radius_bg_white"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_content"
+            style="@style/text_sp14_333333"
+            android:padding="@dimen/padding_15dp"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:lineSpacingExtra="10dp"
+            android:text="是否确定？"/>
+        <View
+            android:layout_marginTop="15dp"
+            style="@style/lin_horizontal_dddddd"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btn_one"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                style="@style/button_sure"
+                android:text="确定"/>
+            <Button
+                android:id="@+id/btn_two"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                style="@style/button_cancle"
+                android:layout_weight="1"
+                android:text="确定"/>
+            <Button
+                android:id="@+id/btn_third"
+                android:layout_weight="1"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                style="@style/button_cancle"
+                android:text="确定"/>
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
